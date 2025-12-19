@@ -114,7 +114,7 @@ else:
     coins = [c.strip().lower() for c in coins_text.split(",") if c.strip()] or DEFAULT_COINS
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Data: CoinGecko (no API key). Cached ~10 min.")
+st.sidebar.caption("Data: CoinGecko")
 
 # HEADER
 st.title("💰 Crypto Dashboard")
